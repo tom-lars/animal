@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animal Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Animal Gallery</h1>
+    </header>
+    <main>
+        <div class="gallery">
+            <div class="gallery-item">
+                <img src="images/lion.jpg" alt="Lion">
+                <div class="description">Lion</div>
+            </div>
+            <div class="gallery-item">
+                <img src="images/elephant.jpg" alt="Elephant">
+                <div class="description">Elephant</div>
+            </div>
+            <div class="gallery-item">
+                <img src="images/tiger.jpg" alt="Tiger">
+                <div class="description">Tiger</div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Animal Gallery. All rights reserved.</p>
+    </footer>
+</body>
+</html>
