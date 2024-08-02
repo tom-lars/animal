@@ -3,31 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Animal Gallery</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Animal Kingdom</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Animal Gallery</h1>
+        <h1>Welcome to the Animal Kingdom</h1>
     </header>
     <main>
-        <div class="gallery">
-            <div class="gallery-item">
-                <img src="images/lion.jpg" alt="Lion">
-                <div class="description">Lion</div>
-            </div>
-            <div class="gallery-item">
-                <img src="images/elephant.jpg" alt="Elephant">
-                <div class="description">Elephant</div>
-            </div>
-            <div class="gallery-item">
-                <img src="images/tiger.jpg" alt="Tiger">
-                <div class="description">Tiger</div>
-            </div>
-        </div>
+        <section class="animal">
+            <h2>Lion</h2>
+            <img src="https://example.com/lion.jpg" alt="Lion">
+            <p>The lion is a species in the family Felidae and a member of the genus Panthera.</p>
+        </section>
+        <section class="animal">
+            <h2>Elephant</h2>
+            <img src="https://example.com/elephant.jpg" alt="Elephant">
+            <p>Elephants are mammals of the family Elephantidae and the largest existing land animals.</p>
+        </section>
+        <section class="animal">
+            <h2>Giraffe</h2>
+            <img src="https://example.com/giraffe.jpg" alt="Giraffe">
+            <p>The giraffe is an African artiodactyl mammal, the tallest living terrestrial animal.</p>
+        </section>
     </main>
     <footer>
-        <p>&copy; 2024 Animal Gallery. All rights reserved.</p>
+        <p>&copy; 2024 Animal Kingdom. All rights reserved.</p>
     </footer>
 </body>
 </html>
